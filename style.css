@@ -2,7 +2,7 @@
 
 :root {
   --line-border-fill: #3498db;
-  --line-border-empty: #e0e0e0
+  --line-border-empty: #e0e0e0;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   position: relative;
   margin-bottom: 30px;
-  max max-width: 100%;
+  max-width: 100%;
   width: 350px;
 }
 
@@ -67,7 +67,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 3px solid var(--line-border-empty);
-  transition: .4s ease;
+  transition: 0.4s ease;
 }
 
 .circle.active {
